@@ -1,0 +1,82 @@
+/*IREMOS TRABALHAR COM MEDIA QUERIES:
+VAMOS CONHECER O CONCEITO DE TAMANHOS PARA DIVERSOS APARELHOS, OS TAMANHOS MAIS COMUNMENTE USADOS SÃO
+Extra small (XS): Menos de 576 pixels. 
+Small (SM): De 576 pixels até 767 pixels.
+Medium (MD): De 768 pixels até 991 pixels.
+Large (LG): De 992 pixels até 1199 pixels.
+Extra large (XL): 1200 pixels ou mais
+
+AGORA APRENDEREMOS A CRIAR UM LAYOUT QUE PERMITA QUE TODOS OS ELEMENTOS ESTEJAM BEM INSERIDOS 
+INDEPENDENTE DO TAMANHO DA TELA*/
+
+@media screen and (max-width: 575.98px) {
+    /* Estilos para telas menores que 576 pixels */
+    h1 {
+        color: blue;
+        padding: 20px;
+    }
+
+    h2, h3, h4 {
+        font-size: 25px;
+    }
+
+    .content {
+        background-color: rgb(248, 238, 236);
+        text-align: center;
+    }
+
+    aside {
+        text-align: start;
+        padding: 10px;
+    }
+
+    li{
+        list-style: none;
+        margin: 10px;
+    }
+
+    main {
+        width: 80%;
+        background-color: aqua;
+        margin: auto;
+        padding: 20px;
+    }
+
+    footer{
+        margin-top: 2rem;
+        padding: 10px;
+    }
+  }
+  
+  /* Small (SM) */
+  @media screen and (min-width: 576px) and (max-width: 767.98px) {
+    /* Estilos para telas entre 576 e 767 pixels */
+
+    h1 {
+        color: rgb(202, 14, 39);
+    }
+  }
+  
+  /* Medium (MD) */
+  @media screen and (min-width: 768px) and (max-width: 991.98px) {
+    /* Estilos para telas entre 768 e 991 pixels */
+    h1 {
+        color: rgb(163, 6, 184);
+    }
+  }
+  
+  /* Large (LG) */
+  @media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    /* Estilos para telas entre 992 e 1199 pixels */
+    h1 {
+        color: rgb(17, 226, 233);
+    }
+  }
+  
+  /* Extra large (XL) */
+  @media screen and (min-width: 1200px) {
+    /* Estilos para telas maiores que 1200 pixels */
+    h1 {
+        color: rgb(18, 206, 18);
+    }
+  }
