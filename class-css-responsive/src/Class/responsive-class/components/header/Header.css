@@ -42,6 +42,10 @@
         position: static;
     }
 
+    .title-header{
+        font-family:  "Josefin Slab", serif;
+    }
+
     nav{
         width: 40%;
     }

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Playpen+Sans:wght@100..800&display=swap');
+
 /*IREMOS TRABALHAR COM MEDIA QUERIES:
 VAMOS CONHECER O CONCEITO DE TAMANHOS PARA DIVERSOS APARELHOS, OS TAMANHOS MAIS COMUNMENTE USADOS SÃO
 Extra small (XS): Menos de 576 pixels. 
@@ -58,6 +61,7 @@ INDEPENDENTE DO TAMANHO DA TELA*/
         padding: 20px;
         text-align: start;
         line-height: 1.5;
+        font-family: "Playpen Sans", cursive;
     }
   }
   
@@ -92,6 +96,11 @@ INDEPENDENTE DO TAMANHO DA TELA*/
         margin: 20px;
     }
 
+    h1{
+        font-size: 8rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
     h2, h3, h4 {
         font-size: 25px;
     }
@@ -111,6 +120,7 @@ INDEPENDENTE DO TAMANHO DA TELA*/
         height: 70vh;
         width: 15%;
         border-radius: 10px;
+        margin-left: 2rem;
     }
 
     aside ul{
@@ -141,15 +151,20 @@ INDEPENDENTE DO TAMANHO DA TELA*/
     
 
     main {
-        width: 80%;
+        width: 70%;
         padding: 20px;
         text-align: start;
         line-height: 1.5;
+        margin-left: 5rem;
+    }
+
+    main p {
+        font-size: 30px;
     }
 
     .principal-content{
         display: flex;
         flex-direction: row;
-        align-items: start;
+        align-items: flex-start;
     }
   }
